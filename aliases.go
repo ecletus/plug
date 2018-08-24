@@ -18,6 +18,9 @@ type (
 	PluginEventInterface           = pluggable.PluginEventInterface
 	PluginEvent                    = pluggable.PluginEvent
 	PluginsFS                      = pluggable.PluginsFS
+
+	AssetFSEvent  = pluggable.AssetFSEvent
+	LocaleFSEvent = pluggable.LocaleFSEvent
 )
 
 var (
@@ -28,4 +31,7 @@ var (
 	UIDs           = pluggable.UIDs
 	EInit          = pluggable.EInit
 	EPostInit      = pluggable.EPostInit
+
+	OnAssetFS  = pluggable.OnAssetFS
+	OnLocaleFS = pluggable.OnLocaleFS
 )
