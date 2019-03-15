@@ -9,6 +9,7 @@ type (
 	CallbackFuncE            = pluggable.CallbackFuncE
 	EventDispatcherInterface = pluggable.EventDispatcherInterface
 	EventDispatcher          = pluggable.EventDispatcher
+	PluginEventDispatcher    = pluggable.PluginEventDispatcher
 	EventInterface           = pluggable.EventInterface
 	Event                    = pluggable.Event
 
@@ -19,8 +20,13 @@ type (
 	PluginEvent                    = pluggable.PluginEvent
 	PluginsFS                      = pluggable.PluginsFS
 
-	AssetFSEvent  = pluggable.AssetFSEvent
+	FSEvent       = pluggable.FSEvent
 	LocaleFSEvent = pluggable.LocaleFSEvent
+
+	PluginAccess = pluggable.PluginAccess
+	Accessible   = pluggable.Accessible
+
+	Plugin = pluggable.Plugin
 )
 
 var (
@@ -29,9 +35,9 @@ var (
 	EAll           = pluggable.EAll
 	UID            = pluggable.UID
 	UIDs           = pluggable.UIDs
-	EInit          = pluggable.EInit
-	EPostInit      = pluggable.EPostInit
+	OnInit         = pluggable.OnInit
+	OnPostInit     = pluggable.OnPostInit
 
-	OnAssetFS  = pluggable.OnAssetFS
+	OnFS       = pluggable.OnFS
 	OnLocaleFS = pluggable.OnLocaleFS
 )
