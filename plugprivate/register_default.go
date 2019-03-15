@@ -3,7 +3,7 @@
 package plugprivate
 
 import (
-	"github.com/aghape/plug"
+	"github.com/ecletus/plug"
 )
 
 func (p *PluginWithPrivateFS) onFS() {

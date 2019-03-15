@@ -3,9 +3,9 @@ package plugembed
 import (
 	"path/filepath"
 
-	"github.com/aghape/cli"
-	"github.com/aghape/plug"
-	"github.com/aghape/plug/plugprivate"
+	"github.com/ecletus/cli"
+	"github.com/ecletus/plug"
+	"github.com/ecletus/plug/plugprivate"
 	"github.com/moisespsena/go-pluggable"
 )
 

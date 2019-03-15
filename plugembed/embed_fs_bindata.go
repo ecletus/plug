@@ -5,7 +5,7 @@ package plugembed
 import (
 	"path/filepath"
 
-	"github.com/aghape/plug"
+	"github.com/ecletus/plug"
 )
 
 func (p *PluginWithEmbededCommands) _setup(ev *plug.FSEvent) {

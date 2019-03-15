@@ -1,7 +1,7 @@
 package plugprivate
 
 import (
-	"github.com/aghape/plug"
+	"github.com/ecletus/plug"
 	"github.com/moisespsena/go-path-helpers"
 )
 

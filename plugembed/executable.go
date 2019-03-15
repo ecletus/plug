@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/aghape/aghape"
+	"github.com/ecletus/ecletus"
 	"github.com/moisespsena-go/task"
 	"github.com/moisespsena/go-error-wrap"
 	"github.com/spf13/cobra"
@@ -97,8 +97,8 @@ func (e *Executable) CobraCommandSetup(cmd *cobra.Command) *cobra.Command {
 			return errwrap.Wrap(err, "Create task")
 		}
 
-		agp := aghape.Get()
-		return errwrap.Wrap(agp.AddTask(t), "Aghape: Add Task")
+		ect := ecletus.Get()
+		return errwrap.Wrap(ect.AddTask(t), "Ecletus: Add Task")
 	}
 	return cmd
 }

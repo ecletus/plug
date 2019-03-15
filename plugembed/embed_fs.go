@@ -1,7 +1,7 @@
 package plugembed
 
 import (
-	"github.com/aghape/plug"
+	"github.com/ecletus/plug"
 	"github.com/moisespsena/go-assetfs/assetfsapi"
 )
 

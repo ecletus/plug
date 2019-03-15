@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/aghape/plug"
+	"github.com/ecletus/plug"
 	"github.com/moisespsena-go/build-dest"
 	"github.com/moisespsena/go-assetfs/assetfsapi"
 	"github.com/moisespsena/go-path-helpers"
