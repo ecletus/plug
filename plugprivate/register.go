@@ -2,7 +2,7 @@ package plugprivate
 
 import (
 	"github.com/ecletus/plug"
-	"github.com/moisespsena/go-path-helpers"
+	"github.com/moisespsena-go/path-helpers"
 )
 
 var E_PRIVATE_PATH_REGISTER = path_helpers.GetCalledDir() + ":privatePathRegister"

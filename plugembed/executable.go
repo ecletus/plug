@@ -10,7 +10,7 @@ import (
 	"github.com/moisespsena/go-error-wrap"
 	"github.com/spf13/cobra"
 
-	"github.com/moisespsena/go-path-helpers"
+	"github.com/moisespsena-go/path-helpers"
 )
 
 type ExecutableSlice []*Executable

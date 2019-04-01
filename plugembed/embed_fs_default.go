@@ -9,7 +9,7 @@ import (
 	"github.com/ecletus/plug"
 	"github.com/moisespsena-go/build-dest"
 	"github.com/moisespsena/go-assetfs/assetfsapi"
-	"github.com/moisespsena/go-path-helpers"
+	"github.com/moisespsena-go/path-helpers"
 )
 
 func (p *PluginWithEmbededCommands) _setup(ev *plug.FSEvent) {
