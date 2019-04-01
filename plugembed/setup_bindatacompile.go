@@ -3,7 +3,7 @@
 package plugembed
 
 import (
-	"github.com/moisespsena/go-error-wrap"
+	"github.com/moisespsena-go/error-wrap"
 )
 
 func (e *Embed) Setup(dest string) {

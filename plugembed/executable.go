@@ -7,7 +7,7 @@ import (
 
 	"github.com/ecletus/ecletus"
 	"github.com/moisespsena-go/task"
-	"github.com/moisespsena/go-error-wrap"
+	"github.com/moisespsena-go/error-wrap"
 	"github.com/spf13/cobra"
 
 	"github.com/moisespsena-go/path-helpers"
