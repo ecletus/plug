@@ -6,7 +6,7 @@ import (
 	"github.com/ecletus/cli"
 	"github.com/ecletus/plug"
 	"github.com/ecletus/plug/plugprivate"
-	"github.com/moisespsena/go-pluggable"
+	"github.com/moisespsena-go/pluggable"
 )
 
 type PluginWithEmbededCommands struct {

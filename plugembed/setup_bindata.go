@@ -2,7 +2,7 @@
 
 package plugembed
 
-import assetfs "github.com/moisespsena/go-assetfs"
+import assetfs "github.com/moisespsena-go/assetfs"
 
 func (e *Embed) Setup(dest string) {
 	e.DestPath = func() string {

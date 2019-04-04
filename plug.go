@@ -1,8 +1,8 @@
 package plug
 
 import (
-	"github.com/moisespsena/go-assetfs/assetfsapi"
-	"github.com/moisespsena/go-pluggable"
+	"github.com/moisespsena-go/assetfs/assetfsapi"
+	"github.com/moisespsena-go/pluggable"
 )
 
 type Plugins struct {

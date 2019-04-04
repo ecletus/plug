@@ -2,7 +2,7 @@ package plugembed
 
 import (
 	"github.com/ecletus/plug"
-	"github.com/moisespsena/go-assetfs/assetfsapi"
+	"github.com/moisespsena-go/assetfs/assetfsapi"
 )
 
 func (p *PluginWithEmbededCommands) EmbedFS() assetfsapi.Interface {

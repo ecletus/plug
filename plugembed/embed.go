@@ -3,7 +3,7 @@ package plugembed
 import (
 	"github.com/op/go-logging"
 
-	"github.com/moisespsena/go-assetfs/assetfsapi"
+	"github.com/moisespsena-go/assetfs/assetfsapi"
 )
 
 type EmbedInfo struct {
