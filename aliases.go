@@ -40,4 +40,6 @@ var (
 
 	OnFS       = pluggable.OnFS
 	OnLocaleFS = pluggable.OnLocaleFS
+
+	Dis = pluggable.Dis
 )

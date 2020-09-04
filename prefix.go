@@ -7,5 +7,5 @@ import (
 
 var (
 	PREFIX = path_helpers.GetCalledDir()
-	log    = defaultlogger.NewLogger(PREFIX)
+	log    = defaultlogger.GetOrCreateLogger(PREFIX)
 )

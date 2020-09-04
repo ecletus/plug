@@ -15,7 +15,6 @@ type PluginWithPrivateFS struct {
 func (p *PluginWithPrivateFS) OnRegister() {
 	plug.OnFS(p, func(e *pluggable.FSEvent) {
 		p.privateFS = e.PrivateFS
-		p.onFS()
 	})
 }
 
